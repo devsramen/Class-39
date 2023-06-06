@@ -59,9 +59,10 @@ span{
     width: 100%;
     padding: 17px 0;
     background-color: #1C1E53;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 .bgColor{
     background-color: #1C1E53;
