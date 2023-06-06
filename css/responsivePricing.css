@@ -1,0 +1,52 @@
+@media (min-width: 0) and (max-width: 576px) {
+    #pricing {
+        padding: 90px 0 40px 0;
+    }
+    .priTitle {
+        font-size: var(--ReTitleFontSize_5);
+        padding-bottom: 15px;
+    }
+    .priPara {
+        font-size: var(--ReParaFontSize_1);
+        text-align: justify;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+    .pCI {
+        width: auto;
+        height: 24px;
+    }
+    .d-flex {
+        flex-direction: unset;
+    }
+    .pCITex {
+        font-size: 14px;
+    }
+    .pCardBtn {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 11px;
+    }
+    .priCardBody {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .priCardPara {
+        margin-bottom: 30px;
+    }
+    .priCardList {
+        margin-bottom: 35px;
+    }
+
+    /* ============= FAQ ============= */
+    #faq .h2, h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    #accordionExample {
+        margin-top: 20px;
+    }
+    .faqitemNumber {
+        margin-right: 10px;
+    }
+}

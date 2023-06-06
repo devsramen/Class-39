@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.commonTitle2 {
+  font-size: var(--titleFontSize_3);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_3);
+  color: var(--paraFontColor_5);
+}
+
+.commonSmalTitle {
+  font-size: var(--subTitleFontSize_1);
+  font-weight: var(--subTitleFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor_6);
+}
+
+.commonPara {
+  font-size: var(--paraFontSize_1);
+  font-weight: var(--paraFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor);
+}
+
+.commonBtn {
+  font-size: var(--subTitleFontSize_1);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor_4);
+  text-transform: capitalize;
+  border: 2px solid var(--bgColor_9);
+  border-radius: 41px;
+  padding: 16px 48px;
+  transition: all linear 0.3s;
+}
+
+.commonBtn:hover {
+  background-color: var(--bgColor_8);
+  color: var(--primaryFontColor);
+}
+
+#fBanner {
+  padding: 220px 0 128PX 0;
+  background-color: var(--bgColor_7);
+}
+#fBanner .bTitle {
+  font-size: var(--titleFontSize_1);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_2);
+  color: var(--bgColor_5);
+}
+#fBanner .commonPara {
+  color: var(--paraFontColor_4);
+  margin: 32px 0;
+}
+
+#benefits {
+  padding: 86px 0;
+}
+#benefits .beTitle {
+  padding-top: 120px;
+}
+
+#bIC .commonSmalTitle {
+  margin-top: 41px;
+}
+#bIC .commonTitle2 {
+  margin: 16px 0;
+}
+#bIC .commonPara {
+  padding-right: 50px;
+}
+
+#revisions {
+  margin-top: 128px;
+  padding: 128px 0;
+  background-color: var(--bgColor_10);
+}
+#revisions .commonSmalTitle {
+  margin-top: 41px;
+}
+#revisions .commonTitle2 {
+  margin: 16px 0;
+}
+#revisions .commonPara {
+  padding-right: 50px;
+}
+
+#support {
+  padding: 128px 0;
+  background-color: var(--bgColor_11);
+}
+#support .commonSmalTitle {
+  margin-top: 41px;
+}
+#support .commonTitle2 {
+  margin: 16px 0;
+}
+#support .commonPara {
+  padding-right: 50px;
+}
+
+#delivery {
+  padding: 128px 0;
+  background-color: var(--bgColor_12);
+}
+#delivery .commonSmalTitle {
+  margin-top: 41px;
+}
+#delivery .commonTitle2 {
+  margin: 16px 0;
+}
+#delivery .commonPara {
+  padding-right: 50px;
+}
+
+.accordion-button {
+  gap: 10px;
+}/*# sourceMappingURL=features.css.map */

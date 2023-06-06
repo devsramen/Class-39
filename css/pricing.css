@@ -1,0 +1,114 @@
+body{
+    color: var(--primaryFontColor);
+}
+#pricing{
+    padding: 220px 0 128px 0;
+}
+.priTitle{
+    font-size: var(--titleFontSize_2);
+    font-weight: var(--titleFontWeight_1);
+    line-height: var(--TitleFontLineHeight_2);
+    text-align: center;
+}
+.priPara{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--paraFontLineHeight_1);
+    text-align: center;
+    padding: 0  40px;
+    margin-bottom: 64px;
+}
+.priCardBody{
+    background-color: var(--bgColor_4);
+    border-radius: 15px;
+    padding: 64px 48px;
+    transition: all linear 0.3s;
+}
+.priCardTitle strong{
+    font-size: var(--titleFontSize_3);
+    font-weight: var(--titleFontWeight_1);
+    line-height: var(--paraFontLineHeight_4);
+}
+span.priCardTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.priCardTitle a{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--paraFontWeight_1);
+    line-height: var(--paraFontLineHeight_1);
+    color: var(--paraFontColor_3);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.priCardSubTitle{
+    font-size: var(--titleFontSize_4);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--TitleFontLineHeight_4);
+    padding: 20px 0 10px 0;
+}
+.priCardPara{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--subTitleFontWeight_1);
+    line-height: var(--paraFontLineHeight_1);
+    color: var(--paraFontColor);
+    margin-bottom: 78px;
+}
+.priCardList{
+    margin-bottom: 80px;
+}
+.pCITex{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--paraFontWeight_1);
+    line-height: var(--paraFontLineHeight_1);
+}
+.pCC{
+    color: var(--paraFontColor);
+}
+
+.btnWrapper{
+    border: 1px dotted red;
+    margin: 0 auto;
+}
+.pCardBtn{
+    width: 100%;
+    font-size: var(--subTitleFontSize_1);
+    font-weight: var(--titleFontWeight_1);
+    line-height: var(-paraFontLineHeight_1);
+    color: var(--bgColor_4);
+    background-color: var(--bgColor_6);
+    text-transform: capitalize;
+    padding: 16px 78px;
+    border-radius: 30px;
+    transition: all linear 0.3s;
+}
+.priflex{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.priCardHover{
+    transition: all linear 0.3s;
+}
+.priCardBody:hover .priCardHover{
+    color: var(--bgColor_5);
+}
+.priCardBody:hover{
+    background-color: var(--bgColor_7);
+}
+.priCardBody:hover .pCardBtn{
+    background-color: var(--bgColor_8);
+}
+.priCardBody:hover .priCardTitle a{
+    color: var(--bgColor_8);
+}
+.accordion-button {
+    gap: 10px;
+}
+
+
+
+
+
+
