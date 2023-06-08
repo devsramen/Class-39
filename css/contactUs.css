@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact {
+  padding: 220px 0;
+}
+#contact .conTitle {
+  font-size: var(--titleFontSize_2);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_2);
+  text-align: center;
+}
+#contact .conCommonPara {
+  font-size: var(--paraFontSize_1);
+  font-weight: var(--paraFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor);
+  text-align: center;
+}
+#contact form {
+  background-color: var(--bgColor_10);
+  padding: 55px 0;
+  margin-top: 64px;
+  border-radius: 25px;
+}
+#contact form label {
+  font-size: var(--subTitleFontSize_1);
+  font-weight: var(-titleFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor_7);
+}
+#contact form .btn {
+  font-size: var(--subTitleFontSize_1);
+  font-weight: var(--titleFontWeight_1);
+  color: var(--bgColor_10);
+  background-color: var(--bgColor_6);
+}/*# sourceMappingURL=contactUs.css.map */

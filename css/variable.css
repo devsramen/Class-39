@@ -12,6 +12,7 @@
     --bgColor_10: rgba(244, 246, 252, 1);
     --bgColor_11: rgba(255, 255, 255, 1);
     --bgColor_12: rgba(252, 217, 128, 0.1);
+    --bgColor_13: rgba(36, 5, 242, 0.75);
 
     /* ============== Font Color ==================== */
     --primaryFontColor: rgb(40, 41, 56);
@@ -22,6 +23,8 @@
     --paraFontColor_4: rgba(255, 255, 255, 0.70);
     --paraFontColor_5: rgba(35, 37, 54, 1);
     --paraFontColor_6: rgba(0, 0, 0, .87);
+    --paraFontColor_7: rgba(0, 0, 0, 1);
+    --paraFontColor_8: rgba(28, 30, 83, 1);
 
     /* =========== Title Font Size ================ */
     --titleFontSize_1: 54px;
@@ -48,6 +51,9 @@
     
     /* ===========Sub Title Font Size ================ */
     --subTitleFontSize_1: 18px;
+    --subTitleFontSize_2: 16px;
+    --subTitleFontSize_3: 14px;
+    --subTitleFontSize_4: 13px;
     
 
 

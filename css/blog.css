@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bCommonPara {
+  font-size: var(--subTitleFontSize_2);
+  font-weight: var(--paraFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--paraFontColor);
+}
+
+#bBanner {
+  padding: 128px 0;
+}
+#bBanner .bBannTittle {
+  font-size: var(--titleFontSize_2);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_2);
+  color: var(--bgColor_6);
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0 180px;
+}
+#bBanner .bBnnerSubTitle {
+  font-size: var(--subTitleFontSize_2);
+  font-weight: var(--subTitleFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--bgColor_6);
+  text-align: center;
+}
+#bBanner .bCommonPara {
+  text-align: center;
+}
+#bBanner .bBnnerRed {
+  font-size: var(--subTitleFontSize_2);
+  font-weight: var(--paraFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  color: var(--bgColor_13);
+}
+
+#bBlog {
+  padding-bottom: 128px;
+}
+#bBlog .bBlogsTitle {
+  font-size: var(--titleFontSize_2);
+  font-weight: var(--titleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_2);
+  color: var(--bgColor_6);
+  text-align: center;
+  text-transform: capitalize;
+}
+#bBlog .card {
+  padding: 0;
+  background-color: transparent;
+}
+#bBlog .bBlogSubTitle {
+  font-size: var(--subTitleFontSize_2);
+  font-weight: var(--subTitleFontWeight_1);
+  line-height: var(--paraFontLineHeight_1);
+  text-align: left;
+}
+#bBlog .bBlogCardTitle {
+  font-size: var(--titleFontSize_4);
+  font-weight: var(--titleFontWeight_2);
+  line-height: var(--TitleFontLineHeight_4);
+  color: var(--TitleFontLineHeight_4);
+}
+#bBlog .card-body {
+  padding: 0;
+}
+#bBlog .bBlogCardReLink {
+  font-size: var(--subTitleFontSize_2);
+  font-weight: var(--subTitleFontWeight_1);
+  line-height: var(--TitleFontLineHeight_4);
+  color: var(--paraFontColor_8);
+  position: relative;
+}
+#bBlog .bBlogCardReLink::after {
+  content: "\f061";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paraFontColor_8);
+}
+#bBlog .row {
+  row-gap: 64px;
+}/*# sourceMappingURL=blog.css.map */

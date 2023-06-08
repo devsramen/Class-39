@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#contact{
+    padding: 220px 0;
+    .conTitle{
+        font-size: var(--titleFontSize_2);
+        font-weight: var(--titleFontWeight_1);
+        line-height: var(--TitleFontLineHeight_2);
+        text-align: center;
+    }
+    .conCommonPara {
+        font-size: var(--paraFontSize_1);
+        font-weight: var(--paraFontWeight_1);
+        line-height: var(--paraFontLineHeight_1);
+        color: var(--paraFontColor);
+        text-align: center;
+      }
+      form{
+        background-color: var(--bgColor_10);
+        padding: 55px 0;
+        margin-top: 64px;
+        border-radius: 25px;
+        label{
+            font-size: var(--subTitleFontSize_1);
+            font-weight: var(-titleFontWeight_1);
+            line-height: var(--paraFontLineHeight_1);
+            color: var(--paraFontColor_7);
+        }
+        .btn{
+            font-size: var(--subTitleFontSize_1);
+            font-weight: var(--titleFontWeight_1);
+            color: var(--bgColor_10);
+            background-color: var(--bgColor_6);
+        }
+      }
+}

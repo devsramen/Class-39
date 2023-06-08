@@ -1,0 +1,29 @@
+@media (min-width: 0) and (max-width: 576px) {
+    #bBanner {
+        padding: 75px 0 40px 0;
+    }
+    #bBanner .bBannTittle {
+        font-size: var(--ReTitleFontSize_4);
+        padding: 0;
+    }
+    /* ============= Blog ================ */
+    #bBlog .bBlogSubTitle {
+        font-size: var(--subTitleFontSize_3);
+    }
+    /* ======================== Blog ======================== */
+    #bBlog .bBlogsTitle {
+        font-size: 25px;
+    }
+    #bBlog .bBlogCardTitle {
+        font-size: var(--subTitleFontSize_2);
+    }
+    .bCommonPara {
+        font-size: var(--subTitleFontSize_4);
+    }
+    #bBlog .bBlogCardReLink {
+        font-size: var(--subTitleFontSize_3);
+    }
+    #bBlog .row {
+        row-gap: 20px;
+    }
+}

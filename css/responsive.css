@@ -124,6 +124,32 @@
         .footerNavItem {
             text-align: center;
         }
+        
+        /* =================================== Footer ====================================== */
+    #footer {
+        padding-top: 30px;
+    }
+    .fBgColor {
+        margin-top: var(--ReTitleFontSize_6);
+    }
+    .footerRHead {
+        font-size: var(--ReTitleFontSize_5);
+    }
+    .footerPara {
+        line-height: 1.3;
+    }
+    #footer .d-flex {
+        flex-direction: row;
+    }
+    #footer ol, ul {
+        padding-left: 0;
+    }
+    .footerNavbarMain{
+        flex-wrap: wrap;
+    }
+    .footerNavItem {
+        text-align: center;
+    }
 
 
  }
